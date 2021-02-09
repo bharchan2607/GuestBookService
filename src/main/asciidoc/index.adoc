@@ -1,0 +1,25 @@
+= GuestBook API
+
+GuestBook API at http://localhost:8080:
+
+=== Fetch All Guest Entries
+
+.request
+include::{snippets}\ViewGuest\http-request.adoc[]
+
+.response
+include::{snippets}\ViewGuest\http-response.adoc[]
+
+.response-fields
+include::{snippets}\ViewGuest\response-fields.adoc[]
+
+=== Add Guest Entry
+
+.request
+include::{snippets}\AddGuest\http-request.adoc[]
+
+.request-fields
+include::{snippets}\AddGuest\request-fields.adoc[]
+
+.response
+include::{snippets}\AddGuest\http-response.adoc[]
