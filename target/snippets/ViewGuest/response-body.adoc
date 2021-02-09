@@ -1,0 +1,4 @@
+[source,options="nowrap"]
+----
+[{"name":"jack","comments":"Good"},{"name":"jill","comments":"Not so Good"}]
+----

@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ echo '{"name":"jack","comments":"Good"}' | http POST 'http://localhost:8080/entry' \
+    'Content-Type:application/json;charset=UTF-8'
+----

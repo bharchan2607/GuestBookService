@@ -1,0 +1,16 @@
+|===
+|Path|Type|Description
+
+|`+[]+`
+|`+Array+`
+|Array of Guests and their comments
+
+|`+[].name+`
+|`+String+`
+|Name of the Guest
+
+|`+[].comments+`
+|`+String+`
+|Comments given by Guest
+
+|===
