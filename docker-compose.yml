@@ -1,0 +1,16 @@
+version: "3"
+services:
+  guestservicedb:
+    image: postgres
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_PASSWORD: password
+  guest:
+    build: .
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    depends_on:
+      - guestservicedb
+    ports:
+      - "5000:8080"
